@@ -1,0 +1,9 @@
+server:
+  port: 9081
+avro:
+  topic:
+    name: "Personal-Details"
+
+
+
+

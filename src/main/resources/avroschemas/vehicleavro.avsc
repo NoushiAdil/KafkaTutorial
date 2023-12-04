@@ -1,0 +1,32 @@
+{
+  "namespace": "com.demo.KafkaAvroAssignment.avro.schema",
+  "type": "record",
+  "name": "EmployeeVehicle",
+  "fields": [
+    {
+      "name": "empId",
+      "type": "int",
+
+    },
+    {
+      "name": "vehicleNumber",
+      "type": "float",
+
+    },
+    {
+      "name": "vehicleName",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "insuranceDetails",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "manufacturingYear",
+      "type": "float",
+
+    }
+  ]
+}

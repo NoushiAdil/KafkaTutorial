@@ -1,0 +1,32 @@
+{
+  "namespace": "com.demo.KafkaAvroAssignment.avro.schema",
+  "type": "record",
+  "name": "EmployeePersonal",
+  "fields": [
+    {
+      "name": "empId",
+      "type": "int",
+
+    },
+    {
+      "name": "firstName",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "lastName",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "age",
+      "type": "float",
+
+    },
+    {
+      "name": "sex",
+      "type": ["null","string"],
+
+    }
+  ]
+}

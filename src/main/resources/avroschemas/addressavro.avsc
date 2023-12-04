@@ -1,0 +1,47 @@
+{
+  "namespace": "com.demo.KafkaAvroAssignment.avro.schema",
+  "type": "record",
+  "name": "EmployeeAddress",
+  "fields": [
+    {
+      "name": "empId",
+      "type": "int",
+
+    },
+    {
+      "name": "houseName",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "streetName",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "city",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "postcode",
+      "type": "float",
+
+    },
+    {
+      "name": "district",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "state",
+      "type": ["null","string"],
+
+    },
+    {
+      "name": "country",
+      "type": ["null","string"],
+
+    }
+  ]
+}
